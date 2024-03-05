@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('Weather data:', data);
             // Update HTML with weather data
             document.querySelector(".city").innerHTML = data.location.name;
-            document.querySelector(".temp").innerHTML = data.current.temp_c + "Temp";
-            document.querySelector(".humidity").innerHTML = data.current.humidity + "  "+"Humidity";
+            document.querySelector(".temp").innerHTML = data.current.temp_c + "°C";
+            document.querySelector(".humidity").innerHTML = data.current.humidity + "  "+"H u m i d i t y";
             document.querySelector(".wind").innerHTML = data.current.wind_kph + "kph";
             document.querySelector(".h22").innerHTML = data.current.condition.text;
             
