@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/ee7006bc84.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+
+<body class="body">
+    <script src="script.js"></script>
+    
+    <nav>
+        <div class="left">Weather Forecast</ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="Home/index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="centent">
+        <div class="serach-box">
+            <form id="cityForm">
+                <input type="text" id="cityInput" placeholder="Enter Your City">
+                <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        </div>
+        <h1><div class="city"><h1>California</h1></h1></div>
+        <h2><div class="h22">Rainy</h2>
+            </div>
+        <div class="detail">
+            <ul>
+                <li><i class="fa-solid fa-temperature-half"><h3><span class="temp"></span></h3></i></li>
+                <li><i class="fa-regular fa-droplet-percent"><h3><span class="humidity"></span></h3></i></li>
+                <li><i class="fa-solid fa-wind"><h3><span class="wind"></span></h3></i></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="backgroundvideo">
+        <video autoplay loop muted plays-inline class="bgvideo">
+            <source src="res/sunny.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+
+</html>

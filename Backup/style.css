@@ -1,0 +1,118 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    
+    
+      
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(67, 18, 99, 0);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+.centent{
+    padding-top:50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.centent h1{
+    font-size: 160px;
+    color: aliceblue;
+    font-weight:600 ;
+
+}
+.centent h1:hover{
+    -webkit-text-stroke:2px #fff;
+    color: transparent;
+}
+   
+.bgvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-aspect-ratio:16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+    
+}
+.left{
+    font-size: 40px;
+    color: #fff;
+
+}
+.serach-box{
+    width: 100vh;
+    margin-left: 56vh;
+    position: center;
+    padding-bottom: 50px;
+    
+}
+.serach-box input[type="text"]{
+    width: 100%;
+    font-size: large;
+    padding: 18px 30px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.041);
+    border-radius: 20px;
+}
+.detail ul{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.detail ul li{
+    tab-size: 200px;    
+    list-style: none;
+    color: #fff;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 27%;
+    left: 70%;
+    font-size: large;
+    color: #fff;
+}
+.h22{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.right{
+    font-size: large;
+}
